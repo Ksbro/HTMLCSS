@@ -12,9 +12,6 @@
 .clearfix { display: block; }
 /* close commented backslash hack */
 
-/*h1 {
-	color:#3127B0;
-}*/
 
 #simple-text {
 	color: red
@@ -62,7 +59,7 @@
 
 #main-menu ul li a {
 	text-decoration: none;
-	color: ##e8dbd3;
+	color: #e8dbd3;
 }
 
 #main-menu ul li a:hover {
@@ -95,4 +92,30 @@
 	background: #eee;
 	float: right;
 	padding: 20px 2.5%
+}
+
+#footer-site {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: #4a423f;
+	text-align: center;
+}
+
+#footer-site,
+#footer-site a {
+	color: #fff;
+}
+
+#footer-site a {
+	text-decoration: none;
+}
+
+.widget-social li {
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+.widget-social li a:hover {
+	color: #f05f40 !important;
 }

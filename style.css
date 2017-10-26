@@ -83,6 +83,7 @@
 .wrapper-col {
 	width: 90%;
 	background: #333;
+	margin: 0 auto;
 }
 .col-main {
 	width: 70%;

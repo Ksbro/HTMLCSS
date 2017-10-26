@@ -70,3 +70,13 @@
 	cursor: pointer;
 }
 
+.infosite {
+	text-align: center;
+	background-color: #ccc;
+	padding: 50px;
+}
+
+.infosite h1 {
+	margin-top: 0;
+	color: #ff5943;
+}

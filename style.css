@@ -80,7 +80,10 @@
 	margin-top: 0;
 	color: #ff5943;
 }
-
+.wrapper-col {
+	width: 90%;
+	background: #333;
+}
 .col-main {
 	width: 70%;
 	float: left;

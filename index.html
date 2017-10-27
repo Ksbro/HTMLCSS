@@ -26,10 +26,106 @@
 			<div class="wrapper-col clearfix">
 				<section class="col-main">
 					<p> Последние записи сайта</p>
+
+					<form method="post" enctype="application/x-www-form-urlencoded" acrion="https://example.com/order.cgi">
+						<p>
+							<label> Имя:
+								<input name="custname" required>
+							</label>
+						</p>
+						<p>
+							<label> Телефон:
+								<input type=tel name="custtel">
+							</label>
+						</p>
+						<p>
+							<label> E-mail адресс:
+								<input type=email name="custemail">
+							</label>
+						</p>
+						<p>
+							<label> Выберите тип кота:
+								<select name="custtype">
+									<option value="Business"> Business </option>
+									<option value="Customer"> Customer </option>
+								</select>								
+							</label>
+						</p>
+						<p>
+							<label> Выберите тип кота:
+								<select name="custtype2" multiple>
+									<option value="Business"> Business </option>
+									<option value="Customer"> Customer </option>
+									<option value="Person"> Person </option>
+								</select>								
+							</label>
+						</p>
+						<fieldset>
+							<legend> Выберите размер кота </legend>
+							<p>
+								<label>
+									<input type=radio name=size value="small">
+									Худенький
+								</label>
+							</p>
+							<p>
+								<label>
+									<input type=radio name=size value="medium"> 
+									Нормальный
+								</label>
+							</p>
+							<label>
+									<input type=radio name=size value="large"> 
+									Жирненький
+								</label>
+						</fieldset>
+						<fieldset>
+							<legend> Выберите топпинги </legend>
+							<p>
+								<label>
+									<input type=checkbox name="topping" value="bacon"> Кусь 
+								</label>
+							</p>
+							<p>
+								<label>
+									<input type=checkbox name="topping" value="extra cheese"> Шерсть дополнительно 
+								</label>
+							</p>
+							<p>
+								<label>
+									<input type=checkbox name="topping" value="onion"> Тыгыгык-тыгыдык
+								</label>
+							</p>
+							<p>
+								<label>
+									<input type=checkbox name="topping" value="mushroom"> Мммааау в 6 утра
+								</label>
+							</p>
+						</fieldset>
+						<p>
+							<label> Желаемое время доставки:
+								<input type=time min="11.00" max="21.00" step="900" name="delivery">								
+							</label>
+						</p>
+						<p>
+							<label> Адрес  доставки:
+								<textarea name="comments"></textarea>		
+							</label>
+						</p>
+						<p>
+							<button> Подтверждение заказа </button>
+						</p>
+					</form>
 				</section>
 				<aside class="col-sidebar">
-					<h4> Сайдбар сайта </h4>
-					<p> Здесь вы можете отображать виджеты </p>
+					<div class="container-form">
+						<form type="get" action="form.php">
+							<input type="text" id="search-form" name="search" placeholder="Поиск">
+							<button>
+								<i class="fa fa-search"></i>
+							</button>
+						</form>
+					</div>
 				</aside>
 			</div>
 		</main>

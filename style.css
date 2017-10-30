@@ -136,3 +136,47 @@
 	border: none;
 }
 
+/*Category*/
+
+.cat-list{
+	padding-left: 0;
+
+}
+
+.cat-list li{
+	list-style: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.cat-list li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	position: relative;
+	padding-left: 10px;
+}
+
+.cat-list li a:hover{
+	color: #f05f40;
+}
+
+.cat-list li a:before {
+	content: "";
+	position: absolute;
+	height: 12px;
+	width: 3px;
+	left: 0;
+	top: 2px;
+	background-color: #36313a;
+}
+
+.cat-list li a:hover:before {
+	background-color: #f05f40;
+}
+
+.container-category{
+	padding-top: 15px;
+}
